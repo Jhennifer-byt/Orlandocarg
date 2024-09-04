@@ -1,0 +1,32 @@
+.guia-calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f7f7f7; /* Color de fondo opcional */
+  }
+  
+  .guia-calculator-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .guia-calculator-box {
+      padding: 15px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .guia-calculator-box {
+      padding: 10px;
+      max-width: 100%;
+    }
+  }
+  

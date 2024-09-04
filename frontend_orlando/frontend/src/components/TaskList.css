@@ -1,0 +1,21 @@
+/* TaskList.css */
+.form-control, .form-select {
+    max-width: 250px;
+  }
+  
+  .form-control {
+    margin-right: 1rem;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .btn-success {
+    font-weight: bold;
+  }
+  
